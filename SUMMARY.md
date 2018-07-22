@@ -1,3 +1,4 @@
 # Summary
 
-* [Introduction](README.md)
+* [まえがき](README.md)
+* [きっかけ](purpose.md)
