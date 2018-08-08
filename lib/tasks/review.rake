@@ -1,5 +1,6 @@
 require 'fileutils'
 require 'rake/clean'
+require 'yaml'
 
 BOOK = 'book'
 BOOK_PDF = BOOK + '.pdf'
