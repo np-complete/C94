@@ -6,7 +6,7 @@ AIで生成するといえば、画像生成などが有名です。
 
 **DCGAN** という画像生成手法を試してこの本の締めとしましょう。
 近年、美少女が生成されることが多々[^1][^2][^3]ありますが、だいたいDCGANが使われているようです。
-そこで、[DCGANを使って画像生成をするサンプルコード](https://github.com/carpedm20/DCGAN-tensorflow))が公開されているようなので[解説記事](https://qiita.com/shu223/items/b6d8dc1fccb7c0f68b6b)を読みながら試してみました。
+そこで、[DCGANを使って画像生成をするサンプルコード](https://github.com/carpedm20/DCGAN-tensorflow)が公開されているようなので[解説記事](https://qiita.com/shu223/items/b6d8dc1fccb7c0f68b6b)を読みながら試してみました。
 
 するとどうでしょう。
 **サンプルコードですら完了に20日かかる** というとんでもない事態になりました。
