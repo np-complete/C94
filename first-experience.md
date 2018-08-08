@@ -23,11 +23,9 @@ Rubyでやりたかったんですが、公式ドキュメントを見てもpyth
 ## 猫の顔を検出してみる
 
 
-<div style="float:right; margin-left: 10px;">
-  <img src="images/cat-cat.jpg" width="360px" />
-</div>
-
 明らかに猫の顔を検出しそうなこのファイルを使い、[ヴェネツィアで撮った猫の写真](https://raw.githubusercontent.com/np-complete/c94/master/images/cat.jpg)で試してみたところ、見事に猫の顔が検出されました。
+
+![](images/cat-cat.jpg)
 
 さらに、何を思ったのか同じ画像を元の人間用の `haarcascade_frontalface_default.xml` で検出してみたところ、猫の顔は検出されず、右上の空間に反応がありました。
 こんなところで反応するなんておかしいな〜。壊れてるのかな〜。嫌だな〜。怖いな〜。と思って見てみるとですね、いるんですよ・・・。
@@ -35,9 +33,7 @@ Rubyでやりたかったんですが、公式ドキュメントを見てもpyth
 気づいた瞬間ギャッと叫んで「ナンマンダブ、ナンマンダブ」と唱えながら `scaleFactor` の値を大きくして再実行してみたらすーーーっと消えたんですね。
 一体何だったのか、今となってはわかりませんが恐ろしい体験でした。
 
-<p align="center">
-<img src="images/cat-frontal.jpg" />
-</p>
+![](images/cat-frontal.jpg)
 
 この体験により初めてAIおっもしれえなという感覚が分かり、
 とりあえずAI使ってみるという目標は達成したので、
