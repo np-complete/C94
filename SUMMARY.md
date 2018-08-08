@@ -1,6 +1,5 @@
 # Summary
 
-* [まえがき](README.md)
 * [きっかけ](purpose.md)
 * [初めてのAI体験](first-experience.md)
 * [Hello, World!](hello-world.md)
