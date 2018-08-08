@@ -84,7 +84,7 @@ task epub: BOOK_EPUB
 
 SRC = FileList['*.md'] - %w(SUMMARY.md)
 OBJ = SRC.ext('re') + [CATALOG_FILE]
-INPUT = OBJ + [CONFIG_FILE]
+INPUT = OBJ + [CONFIG_FILE, 'titlepage.tex']
 
 rule '.re' => '.md' do |t|
   sh "bundle exec md2review --render-link-in-footnote #{t.source} > #{t.name}"
