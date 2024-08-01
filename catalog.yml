@@ -1,0 +1,13 @@
+---
+PREDEF:
+- README.re
+CHAPS:
+- purpose.re
+- first-experience.re
+- hello-world.re
+- transfer-learning.re
+- evaluation.re
+- first-step-rawtherapee.re
+- generator.re
+POSTDEF:
+- postdef.re
