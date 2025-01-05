@@ -1,16 +1,16 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    image_size (2.1.2)
+    image_size (3.4.0)
     md2review (1.12.1)
       redcarpet (> 2.0.0)
     rake (13.2.1)
-    redcarpet (3.5.1)
+    redcarpet (3.6.0)
     review (2.5.0)
       image_size
       rouge
       rubyzip
-    rouge (3.26.0)
+    rouge (4.5.1)
     rubyzip (2.3.2)
 
 PLATFORMS
